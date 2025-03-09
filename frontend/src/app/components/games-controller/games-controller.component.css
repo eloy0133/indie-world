@@ -1,0 +1,337 @@
+* {
+    z-index: 20;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+#game-details {
+    position: relative;
+    color: white;
+    padding: 30px 35px 20px 35px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, .1);
+    background: rgba(0, 0, 0, .2);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, .5);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    font-family: 'Press Start 2P';
+    text-align: center;
+    text-shadow: 0 4px 0 rgba(255, 255, 255, .25);
+    margin-bottom: 20px;
+}
+
+#details {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#year {
+    font-family: 'Press Start 2P';
+    text-shadow: 2px 3px 0 rgba(0, 0, 0, .38);
+    border-right: 2px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: fit-content;
+    margin-bottom: 20px;
+    border-left: 0;
+
+    p {
+        padding: 7px 8px 7px 5px;
+        background-color: #FF5353;
+        border-radius: 3px;
+    }
+}
+
+#genre {
+    font-family: 'Press Start 2P';
+    text-shadow: 0 4px 0 rgba(0, 0, 0, .38);
+    padding-left: 10px;
+    padding-right: 10px;
+
+    p {
+        font-weight: 100;
+        padding: 8px 8px 8px 10px;
+        background-color: #75FF53;
+        border-radius: 3px;
+    }
+}
+
+#description {
+    width: fit-content;
+    line-height: 26px;
+    font-family: 'VT323';
+    -webkit-text-stroke-width: 0;
+}
+
+#carousel {
+    color: white;
+    margin-right: 50px;
+}
+
+#carousel-box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, .1);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, .2);
+    backdrop-filter: blur(10px);
+}
+
+#trailerButton {
+    cursor: pointer;
+    color: white;
+    z-index: 10;
+    position: absolute;
+    bottom: 40px;
+    font-size: 30px;
+    width: 180px;
+    gap: 10px;
+    transition: .3s;
+    display: none;
+
+    p {
+        white-space: nowrap;
+        font-family: 'VT323';
+        -webkit-text-stroke-width: 0;
+    }
+}
+
+#trailerButton:hover {
+    scale: 1.1;
+}
+
+#trailer {
+    z-index: 100;
+    transition: .5s;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    video {
+        -webkit-text-stroke-width: 0;
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+#trailer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    backdrop-filter: blur(10px);
+    z-index: -1;
+}
+
+@media only screen and (min-width: 1476px) {
+    #game-details {
+        margin: 0 0 0 50px;
+        width: 45vw;
+        flex-direction: column;
+    }
+
+    #title {
+        font-size: 35px;
+    }
+
+    #year {
+        font-size: 26px;
+    }
+
+    #genre {
+        font-size: 26px;
+    }
+
+    #description {
+        font-size: 30px;
+    }
+
+    #carousel-box {
+        min-width: 750px;
+    }
+
+    .carousel {
+        position: relative;
+        height: 450px;
+        perspective: 800px;
+    }
+
+    #trailerButton {
+        left: 100px;
+    }
+}
+
+@media only screen and (min-width: 1395px) and (max-width: 1476px) {
+    #game-details {
+        margin: 0 0 0 50px;
+        width: 45vw;
+        flex-direction: column;
+    }
+
+    #title {
+        font-size: 25px;
+    }
+
+    #year {
+        font-size: 22px;
+    }
+
+    #genre {
+        font-size: 22px;
+    }
+
+    #description {
+        font-size: 24px;
+    }
+
+    #carousel-box {
+        min-width: 750px;
+
+    }
+
+    .carousel {
+        position: relative;
+        height: 450px;
+        perspective: 800px;
+    }
+
+    #trailerButton {
+        left: 100px;
+    }
+}
+
+@media only screen and (min-width: 1110px) and (max-width: 1395px) {
+    #game-details {
+        width: 60vw;
+        flex-direction: column;
+    }
+
+    #title {
+        font-size: 25px;
+    }
+
+    #year {
+        font-size: 22px;
+    }
+
+    #genre {
+        font-size: 22px;
+    }
+
+    #description {
+        font-size: 24px;
+    }
+
+    #carousel-box {
+        min-width: 70vw;
+    }
+
+    .carousel {
+        position: relative;
+        height: 320px;
+        perspective: 800px;
+    }
+
+    #trailerButton {
+        left: 40vw;
+        bottom: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 860px) and (max-width: 1110px) {
+    #game-details {
+        width: 93vw;
+        flex-direction: column;
+    }
+
+    #title {
+        font-size: 25px;
+    }
+
+    #year {
+        font-size: 22px;
+    }
+
+    #genre {
+        font-size: 22px;
+    }
+
+    #description {
+        font-size: 24px;
+    }
+
+    #carousel-box {
+        min-width: 90vw;
+    }
+
+    .carousel {
+        position: relative;
+        height: 320px;
+        perspective: 800px;
+    }
+
+    #trailerButton {
+        left: 40vw;
+        bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+
+    #game-details {
+        width: 100vw;
+        flex-direction: column;
+        max-height: 37vh;
+    }
+
+
+    #title {
+        font-size: 22px;
+    }
+
+    #year {
+        font-size: 22px;
+    }
+
+    #genre {
+        font-size: 22px;
+    }
+
+    #description {
+        font-size: 22px;
+    }
+
+    #carousel-box {
+        min-width: 100vw;
+    }
+
+    .carousel {
+        position: relative;
+        height: 320px;
+        perspective: 1000px;
+    }
+
+    #trailerButton {
+        left: 40vw;
+        bottom: 20px;
+    }
+}

@@ -1,0 +1,126 @@
+#title :nth-child(1) {
+    color: #FFADAD;
+}
+
+#title :nth-child(2) {
+    color: #80FF84;
+}
+
+#title span {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    margin-right: 25px;
+}
+
+#title {
+    font-size: 40px;
+    text-shadow: 3px 5px 0 rgba(255, 255, 255, .38);
+    font-family: 'Press Start 2P';
+    position: fixed;
+    z-index: 10;
+    top: 40px;
+    left: 50px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#title:hover {
+    transform: translate(3px, 3px);
+
+}
+
+#pages {
+    font-family: 'Press Start 2P';
+    font-size: 26px;
+
+    text-shadow: -2px 4px 0 rgba(255, 255, 255, .38);
+    color: white;
+    z-index: 10;
+    position: fixed;
+    right: 80px;
+    top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+
+    p {
+        transition: .3s;
+        cursor: pointer;
+        white-space: nowrap;
+    }
+
+    p:hover {
+        transform: translate(-2px, 2px);
+    }
+
+    p:nth-child(1).active {
+        color: #80FF84;
+    }
+
+    p:nth-child(2).active {
+        color: #FFADAD;
+    }
+}
+
+@media only screen and (max-width: 1110px) {
+    #title :nth-child(1) {
+        color: #FFADAD;
+    }
+    
+    #title :nth-child(2) {
+        color: #80FF84;
+    }
+    
+    #title span {
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+        margin-right: 25px;
+    }
+    
+    #title {
+        font-size: 40px;
+        text-shadow: 3px 5px 0 rgba(255, 255, 255, .38);
+        font-family: 'Press Start 2P';
+        z-index: 10;
+        cursor: pointer;
+        transition: .3s;
+        position: static;
+    }
+    
+    #title:hover {
+        transform: translate(3px, 3px);
+    
+    }
+    
+    #pages {
+        font-family: 'Press Start 2P';
+        font-size: 26px;
+        text-shadow: -2px 4px 0 rgba(255, 255, 255, .38);
+        color: white;
+        z-index: 10;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10%;
+        position: static;
+    
+        p {
+            transition: .3s;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+    
+        p:hover {
+            transform: translate(-2px, 2px);
+        }
+    
+        p:nth-child(1).active {
+            color: #80FF84;
+        }
+    
+        p:nth-child(2).active {
+            color: #FFADAD;
+        }
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "Hollow Knight": {
+        "title": "Hollow Knight",
+        "released": "2017",
+        "playtime": "66h",
+        "header_image": "",
+        "background_image": "../../assets/images/home/hollowknight.jpg",
+        "genre": "Platformer",
+        "description": "¡Forja tu propio camino en Hollow Knight! Una aventura épica a través de un vasto reino de insectos y héroes que se encuentra en ruinas. Explora cavernas tortuosas, combate contra criaturas corrompidas y entabla amistad con extraños insectos, todo en un estilo clásico en 2D dibujado a mano.",
+        "trailer": ""
+    },
+    "Undertale": {
+        "title": "Undertale",
+        "released": "2015",
+        "playtime": "21h",
+        "header_image": "",
+        "background_image": "../../assets/images/home/undertale.png",
+        "genre": "RPG",
+        "description": "¡UNDERTALE! El juego de rol donde no tienes que destruir a nadie.",
+        "trailer": ""
+    },
+    "Disco Elysium": {
+        "title": "Disco Elysium",
+        "released": "2019",
+        "playtime": "46h",
+        "header_image": "",
+        "background_image": "../../assets/images/home/disco_elysium.jpg",
+        "genre": "RPG",
+        "description": "Disco Elysium - The Final Cut es un innovador juego de rol. Eres un detective con un sistema de habilidades único a tu disposición y toda una ciudad para recorrer. Interroga personajes inolvidables, resuelve asesinatos o acepta sobornos. Conviértete en un héroe o en un absoluto desastre de ser humano.",
+        "trailer": ""
+    },
+    "Dead Cells": {
+        "title": "Dead Cells",
+        "released": "2018",
+        "playtime": "93h",
+        "header_image": "",
+        "background_image": "../../assets/images/home/deadcells.jpg",
+        "genre": "Roguelite",
+        "description": "Dead Cells es un juego de acción y plataformas de estilo roguelite inspirado en juegos tipo metroidvania. Explorarás un castillo en constante cambio y expansión. Sin puntos de control: mata, muere, aprende, repite.",
+        "trailer": ""
+    },
+    "Stardew Valley": {
+        "title": "Stardew Valley",
+        "released": "2016",
+        "playtime": "178h",
+        "header_image": "",
+        "background_image": "../../assets/images/home/stardewvalley.png",
+        "genre": "Simulation",
+        "description": "Acabas de heredar la vieja parcela agrícola de tu abuelo de Stardew Valley. Decides partir hacia una nueva vida con unas herramientas usadas y algunas monedas. ¿Te ves capaz de vivir de la tierra y convertir estos campos descuidados en un hogar próspero?",
+        "trailer": ""
+    },
+    "Hades": {
+        "title": "Hades",
+        "released": "2020",
+        "playtime": "24h",
+        "header_image": "",
+        "background_image": "../../assets/images/home/hades.jpg",
+        "genre": "Roguelike",
+        "description": "Desafía al dios de los muertos y protagoniza una salvaje fuga del Inframundo en este juego de exploración de mazmorras de los creadores de Bastion, Transistor y Pyre.",
+        "trailer": ""
+    },
+    "Celeste": {
+        "title": "Celeste",
+        "released": "2018",
+        "playtime": "40h",
+        "header_image": "",
+        "background_image": "../../assets/images/home/celeste.png",
+        "genre": "Platformer",
+        "description": "Ayuda a Madeline a sobrevivir a sus demonios internos en su viaje hasta la cima de la montaña Celeste en este desafiante juego de plataformas de los creadores de TowerFall. Enfréntate a cientos de desafíos hechos a mano, descubre secretos ocultos y desentraña el misterio de la montaña.",
+        "trailer": ""
+    },
+    "INSIDE": {
+        "title": "INSIDE",
+        "released": "2016",
+        "playtime": "4h",
+        "header_image": "",
+        "background_image": "../../assets/images/home/inside.png",
+        "genre": "Puzzle-platformer",
+        "description": "Perseguido y solo, un niño se encuentra, sin comerlo ni beberlo, en medio de un proyecto oscuro.",
+        "trailer": ""
+    },
+    "The Binding of Isaac: Rebirth": {
+        "title": "The Binding of Isaac: Rebirth",
+        "released": "2014",
+        "playtime": "369h",
+        "header_image": "",
+        "background_image": "../../assets/images/home/tboi.jpeg",
+        "genre": "Roguelike",
+        "description": "The Binding of Isaac: Rebirth es un juego de disparos y rol de acción con elementos de tipo roguelike. Siguiendo el viaje de Isaac, los jugadores encontrarán extrañas reliquias que cambian su forma, le otorgan habilidades sobrehumanas y le permiten enfrentarse a hordas de criaturas misteriosas, descubrir secretos y luchar por su supervivencia.",
+        "trailer": ""
+    }
+}

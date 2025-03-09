@@ -1,0 +1,29 @@
+{
+    "/steam-community": {
+        "target": "https://steamcommunity.com",
+        "secure": true,
+        "changeOrigin": true,
+        "logLevel": "debug",
+        "pathRewrite": {
+            "^/steam-community": ""
+        }
+    },
+    "/steam-store": {
+        "target": "https://store.steampowered.com",
+        "secure": true,
+        "changeOrigin": true,
+        "logLevel": "debug",
+        "pathRewrite": {
+            "^/steam-store": ""
+        }
+    },
+    "/video": {
+    "target": "http://video.akamai.steamstatic.com",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug",
+    "pathRewrite": {
+      "^/video": ""
+    }
+  }
+}

@@ -1,0 +1,125 @@
+app-games-controller {
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    background-image: var(--background-image);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10%;
+    transition: .4s;
+}
+
+#phrase {
+    font-family: 'Press Start 2P';
+    width: 45vw;
+    font-size: calc(8px + 1vw);
+    text-shadow: -1px 4px 0 rgba(255, 255, 255, .38);
+    right: 50px;
+    bottom: 50px;
+    position: absolute;
+    z-index: 10;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+#trailer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+
+p span:nth-child(1) {
+    color: #80FF84;
+}
+
+p span:nth-child(2) {
+    color: #FFADAD;
+}
+
+app-games-controller:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+}
+
+@media only screen and (min-width: 1395px) {
+    app-games-controller {
+        justify-content: left;
+    }
+}
+
+@media only screen and (min-width: 1110px) and (max-width: 1395px) {
+    app-games-controller {
+        padding-top: 14vh;
+        padding-bottom: 10vh;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #phrase {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 860px) and (max-width: 1110px) {
+    app-games-controller {
+        padding-top: 20vh;
+        padding-bottom: 8vh;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #phrase {
+        display: none;
+    }
+
+    app-header {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        width: 100vw;
+        padding: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 860px) {
+    app-games-controller {
+        padding-top: 18vh;
+        padding-bottom: 8vh;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #phrase {
+        display: none;
+    }
+
+    app-header {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        width: 100vw;
+        padding: 20px;
+    }
+}

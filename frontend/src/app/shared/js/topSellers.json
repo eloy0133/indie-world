@@ -1,0 +1,102 @@
+{
+    "Balatro": {
+        "title": "Balatro",
+        "released": "2024",
+        "playtime": "",
+        "header_image": "",
+        "background_image": "../../assets/images/topSellers/balatro.png",
+        "genre": "Roguelike",
+        "description": "El roguelike de póker. Balatro es un hipnótico y genial constructor de mazos donde podrás jugar manos ilegales de póker, descubrir comodines que alterarán tus partidas y activar combos impresionantes que dispararán tu adrenalina.",
+        "trailer": ""
+    },
+    "Outer Wilds": {
+        "title": "Outer Wilds",
+        "released": "2020",
+        "playtime": "",
+        "header_image": "",
+        "background_image": "../../assets/images/topSellers/outerwilds.jpg",
+        "genre": "Adventure",
+        "description": "Outer Wilds, nombrado juego del año 2019 por Giant Bomb, Polygon, Eurogamer y The Guardian, es un galardonado título de mundo abierto, que se desarrolla en un enigmático sistema solar confinado a un bucle temporal infinito.",
+        "trailer": ""
+    },
+    "Factorio": {
+        "title": "Factorio",
+        "released": "2020",
+        "playtime": "",
+        "header_image": "",
+        "background_image": "../../assets/images/topSellers/factorio.jpg",
+        "genre": "Simulation",
+        "description": "Factorio is a game about building and creating automated factories to produce items of increasing complexity, within an infinite 2D world. Use your imagination to design your factory, combine simple elements into ingenious structures, and finally protect it from the creatures who don't really like you.",
+        "trailer": ""
+    },
+    "Project Zomboid": {
+        "title": "Project Zomboid",
+        "released": "2013",
+        "playtime": "",
+        "header_image": "",
+        "background_image": "../../assets/images/topSellers/projectzomboid.jpg",
+        "genre": "Survival",
+        "description": "Project Zomboid is the ultimate in zombie survival. Alone or in MP: you loot, build, craft, fight, farm and fish in a struggle to survive. A hardcore RPG skillset, a vast map, massively customisable sandbox and a cute tutorial raccoon await the unwary. So how will you die? All it takes is a bite..",
+        "trailer": ""
+    },
+    "Slay the Spire": {
+        "title": "Slay the Spire",
+        "released": "2019",
+        "playtime": "",
+        "header_image": "",
+        "background_image": "../../assets/images/topSellers/slaythespire.jpg",
+        "genre": "Roguelike",
+        "description": "Hemos fusionado juegos de cartas y roguelikes para crear el mejor juego de cartas para un solo jugador que pudiéramos. Crea un mazo único, encuentra criaturas extrañas, descubre reliquias de inmenso poder y mata La Aguja.",
+        "trailer": ""
+    },
+    "Don't Starve Together": {
+        "title": "Don't Starve Together",
+        "released": "2016",
+        "playtime": "",
+        "header_image": "",
+        "background_image": "../../assets/images/topSellers/dontstarvetogether.jpg",
+        "genre": "Survival",
+        "description": "Don't Starve Together es la expansión multijugador independiente del juego de supervivencia sin límites Don't Starve.",
+        "trailer": ""
+    },
+    "Risk of Rain 2": {
+        "title": "Risk of Rain 2",
+        "released": "2020",
+        "playtime": "",
+        "header_image": "",
+        "background_image": "../../assets/images/topSellers/riskofrain2.jpg",
+        "genre": "Roguelike",
+        "description": "Lucha contra hordas de monstruos enloquecidos junto a tus amigos o en solitario para lograr escapar de un planeta alienígena sumido en el caos. Combina el botín de maneras asombrosas y domina cada personaje hasta encarnar la destrucción que tanto te aterraba tras tu primer aterrizaje forzoso.",
+        "trailer": ""
+    },
+    "Beat Saber": {
+        "title": "Beat Saber",
+        "released": "2019",
+        "playtime": "",
+        "header_image": "",
+        "background_image": "../../assets/images/topSellers/beatsaber.jpg",
+        "genre": "Ritmo",
+        "description": "Beat Saber es un juego rítmico de RV donde rebanas los ritmos de la palpitante música mientras vuelan hacia ti, rodeado de un mundo futurista.",
+        "trailer": ""
+    },
+    "Cuphead": {
+        "title": "Cuphead",
+        "released": "2014",
+        "playtime": "369h",
+        "header_image": "",
+        "background_image": "../../assets/images/topSellers/cuphead.jpg",
+        "genre": "Platformer",
+        "description": "Cuphead es un juego de acción clásico estilo 'dispara y corre' que se centra en combates contra el jefe. Inspirado en los dibujos animados de los años 30, los aspectos visual y sonoro están diseñados con esmero empleando las mismas técnicas de la época, es decir, animación tradicional a mano, fondos de acuarela y grabaciones originales de jazz.",
+        "trailer": ""
+    },
+    "Vampire Survivors": {
+        "title": "Vampire Survivors",
+        "released": "2022",
+        "playtime": "",
+        "header_image": "",
+        "background_image": "../../assets/images/topSellers/vampiresurvivors.jpg",
+        "genre": "Roguelike",
+        "description": "¡Aniquila a miles de criaturas de la noche y sobrevive hasta el amanecer! Vampire Survivors es un juego casual de terror gótico con elementos «roguelite» donde tus decisiones te permitirán aumentar tu poder exponencialmente mientras luchas contra cientos de monstruos.",
+        "trailer": ""
+    }
+}
